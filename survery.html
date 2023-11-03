@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survery Form</title>
+</head>
+<body>
+<form action="server.js">
+    
+    <div align="center">
+    <h1>Employee Interests Survey form</h1>
+    Enter your department:
+    <input type="text" name="user-name" size=35 maxlength="35" value="">
+    <br><br>
+    Enter your department:
+    <input type="text" name="department" size=35 maxlength=35 value="">
+    <br><br>
+    Tell us a little about your self:
+    <textarea name="comments" id="comments-id" cols="30" rows="4" style="resize: none;"></textarea>
+    <br><br>
+    Do you Exercise at Home?
+    <input type="radio" name="exercise">
+    <label for="exercise">Yes</label>
+    <input type="radio" name="exercise">
+    <label for="exercise">No</label>
+    <br><br>
+    How do you like to read about your favorite topics?
+    <p>
+        <input type="checkbox" name="books" id="topics-id">
+        <label for="books">Books</label>
+        <input type="checkbox" name="online" id="topics-id">
+        <label for="online">Online resources</label>
+        <input type="checkbox" name="phone" id="topics-id">
+        <label for="phone">Phone Apps</label>
+        <input type="checkbox" name="magazines" id="topics-id">
+        <label for="magazines">Magazines</label>
+    </p>
+    What genre of movies do you like?
+    <select name="movies" id="movies-id">
+        <option value="1">comedy</option>
+        <option value="2">romance</option>
+        <option value="3">thriller</option>
+        <option value="4">horror</option>
+        <option value="5">biopic</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Submit form">
+</div>
+</form>
+</body>
+</html>
